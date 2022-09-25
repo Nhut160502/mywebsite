@@ -1,0 +1,35 @@
+.category .text{
+    padding-top: 10px;
+    margin: 15px;
+    border-bottom: 1px solid white;
+}
+.category{
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    background-color: orange;
+
+}
+
+.category .product-line-itemps{
+    /* background-color: white; */
+    text-align: center;
+}
+
+
+.category .product-line-itemps a{
+    text-decoration: none;
+}
+
+
+.category .product-line-itemps .name{
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.category .product-line-itemps .image{
+    border-radius: 10px;
+}

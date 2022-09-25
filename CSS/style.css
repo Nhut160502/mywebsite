@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.color-white{
+    color: white;
+}
+
+#heading{
+    top: 0;
+    width: 100%;
+    height: 46px;
+    position: fixed;
+    background-color: rgb(255, 170, 0);
+}
+
+#heading .heading-box{
+    justify-content: space-around;
+}
+
+/* navi */
+#navi li{
+    display: inline-block;
+}
+
+#navi li a{
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 46px;
+    padding: 0 15px;
+}
+
+.utilities .sub-help li:hover,
+#navi > li:hover > a{
+    color: rgb(255, 170, 0);;
+    background-color: white;
+}
+
+/* logo */
+#heading .logo{
+    text-align: center;
+}
+#heading .logo img {
+    width: 150px;
+    height: 46px;
+}
+
+/* utilities */
+.utilities > li{
+    display: inline-block;
+    position: relative;
+    
+}
+
+.utilities li a{
+    color: white;
+    padding: 0 15px;
+    display: inline-block;
+    line-height: 46px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.utilities .search-btn{
+    display: inline-block;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: rgb(255, 170, 0);
+    outline: none;
+    margin-right: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.utilities li:hover .sub-help{
+    display: block;
+}
+
+.utilities .sub-help{
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: rgb(255, 170, 0);
+}
+
+.utilities .sub-help a{
+    color: white;
+    padding: 0 12px;
+    min-width: 160px;
+    line-height: 40px;
+}
+
+.utilities .sub-help li:hover a{
+    color: rgb(255, 170, 0);
+    background-color: white;
+}
+
+
+
+/* Slider */
+
+#slider{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 46px;
+    padding-top: 25%;
+    background:url(/assets/img/slider/ip14-800-200-800x200-5.png)top center/cover no-repeat;
+}
+
+/* content */
+#content{
+    min-height: 800px;
+}
+
+/* product-menu */
+
+#product-menu{
+    padding-top:40px;
+}
+
+.menu-product-list{
+    background-color: #ddd;
+    justify-content: space-around;
+}
+
+.menu-list-itemps{
+    margin: 0 10px;
+    background-color: #ddd;
+    padding: 30px 10px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.menu-product{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.menu-product-list .iamge-logo-product{
+    width: 150px;
+    height: 100px;
+}
+
+.menu-product p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.menu-product .shop-now-btn{
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px 15px;
+}
+
+.menu-product .shop-now-btn:hover{
+    color: white;
+    background-color: rgb(255, 170, 0);
+    border: none;
+} 
+
+/* new product */
+#new-product{
+    padding-top: 40px;
+}
+
+.list-new-product {
+    justify-content: flex-start;
+}
+
+p.row.heading-new-product {
+    border-bottom: 1px solid;
+    border-bottom: 1px solid #000;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.itemp-new-product .image-product{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+}
+
+.itemp-new-product {
+    width: 20%;
+    padding: 10px 15px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: orange;
+}
+
+.infor-new-product {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.infor-new-product p{
+    font-size: 20px;
+}
+
+.description-product{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+
